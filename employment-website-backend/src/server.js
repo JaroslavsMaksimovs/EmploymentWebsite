@@ -8,7 +8,8 @@ const homepageAdress = 'http://localhost:3000';
 // the next line is removed for security reasons
 // const serverEmail = ;
 const transporter = nodemailer.createTransport({
-  host: 'mail.inbox.lv',
+  // the next line is removed for security reasons
+  // host: ,
   port: '587',
   secure: false,
   auth: {
