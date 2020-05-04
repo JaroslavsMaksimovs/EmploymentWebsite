@@ -9,7 +9,9 @@ const SearchComponent = () => {
   const search = () => {
     setQuery('');
   };
-
+/*
+w3schools.com (2020), “How TO – Search Button”, Available at https://www.w3schools.com/howto/howto_css_search_button.asp
+*/
   return(
     <>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
